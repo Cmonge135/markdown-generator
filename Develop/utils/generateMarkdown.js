@@ -58,7 +58,7 @@ const generateMarkdown = (data) => {
   ${data.projectName}
 
   ## License
-  ${licenseBadge} | [View License](${licenseLink})
+  ${licenseBadge} - [View License](${licenseLink})
 
   ## Table of Contents
 - [Title](#Project-Name)
@@ -86,7 +86,7 @@ const generateMarkdown = (data) => {
   ${data.test}
 
   ## Questions
-  For any questions or suggestions please contact at ${data.email} or visit [https://github.com/${data.GithubUsername}](https://github.com/${data.GithubUsername})
+  For any questions or suggestions please contact at ${data.email} or visit [https://github.com/${data.username}](https://github.com/${data.username})
 `;
 }
 
